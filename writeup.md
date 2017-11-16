@@ -18,9 +18,6 @@ The goals / steps of this project are the following:
 [left]: ./writeup_img/left.jpg "Left Image"
 [right]: ./writeup_img/right.jpg "Right Image"
 
-## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/432/view) individually and describe how I addressed each point in my implementation.  
-
 ---
 ## Files submitted
 
@@ -52,7 +49,7 @@ The starting point was the LeNet architecture.
 * For both the first and second track, between 40000 and 50000 images were used
 * trained for 1 epoch (if more epochs were used, the training and validation losses would have increased, so I stayed with 1 epoch)
 * 10% validation data
-* did not use any droput, since the network is fairly small and the droput is effective in deeper networks with more connections
+* did not use any dropout, since the network is fairly small and dropout is effective in deeper networks with more connections
 * RMSE cost function
 * model trained on the AWS instance
 
