@@ -69,3 +69,4 @@ There are a few interesting findings for recording the training data:
 * The car drives successfully on the first track.
 * The car drives successfully on the second track, except at the very end, where it crosses the metal poles and starts driving on the road from the other side of the track. It is interesting that it does not go away from the road, but just switches from the main road to the one from the other side. 
 * I should have trained a single network with the combined data from the first and second tracks. Now, I have 2 separate models for the two tracks. I will do this soon, however I wanted to sumbit this project as is for now. 
+* Will try the NVIDIA architecture as well, however it is nice to see how smoothly the car drives even with this simple LeNet model. I think with very good training data, a very simple network works well.
